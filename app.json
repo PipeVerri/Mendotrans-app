@@ -14,11 +14,12 @@
     "plugins": [
       [
         "react-native-maps",
-        {
-          "androidGoogleMapsApiKey": "process.env.AIzaSyCzNgA7avLAmrYE-RNHh4tfdG1d7ZXQT2Q",
-          "iosGoogleMapsAPiKey": "process.env.AIzaSyCTBi8zInmY5HKxjvQ_I1ji1valhperh5Q"
-        }
-      ]
+      {
+        "androidGoogleMapsApiKey": "process.env.AIzaSyCzNgA7avLAmrYE-RNHh4tfdG1d7ZXQT2Q",
+        "iosGoogleMapsAPiKey": "process.env.AIzaSyCTBi8zInmY5HKxjvQ_I1ji1valhperh5Q"
+      }
+      ],
+      "@maplibre/maplibre-react-native"
     ],
     "ios": {
       "bundleIdentifier": "com.etec.mendotrans",
