@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Mendotrans-app",
-    "slug": "Mendotrans-app",
+    "name": "MendoTrans",
+    "slug": "mendotrans",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,10 +11,24 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "react-native-maps",
+        {
+          "androidGoogleMapsApiKey": "process.env.AIzaSyCzNgA7avLAmrYE-RNHh4tfdG1d7ZXQT2Q",
+          "iosGoogleMapsAPiKey": "process.env.AIzaSyCTBi8zInmY5HKxjvQ_I1ji1valhperh5Q"
+        }
+      ]
+    ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.etec.mendotrans",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
+      "package": "com.etec.mendotrans",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -25,6 +39,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5bc82a5a-335c-4f57-8773-1d856eed1cee"
+      }
+    },
+    "owner": "slender"
   }
 }

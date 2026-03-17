@@ -1,5 +1,5 @@
 {
-  "name": "mendotrans-app",
+  "name": "mendotrans",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "expo": "~55.0.6",
+    "expo-dev-client": "~55.0.16",
     "expo-status-bar": "~55.0.4",
     "react": "19.2.0",
-    "react-native": "0.83.2"
+    "react-native": "0.83.2",
+    "react-native-maps": "1.26.20"
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
