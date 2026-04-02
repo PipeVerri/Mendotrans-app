@@ -6,22 +6,13 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "env": {
-        "ANDROID_HOME": "/home/slender/Android/Sdk"
-      }
+      "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal",
-      "env": {
-        "ANDROID_HOME": "/home/slender/Android/Sdk"
-      }
+      "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true,
-      "env": {
-        "ANDROID_HOME": "/home/slender/Android/Sdk"
-      }
+      "autoIncrement": true
     }
   },
   "submit": {
